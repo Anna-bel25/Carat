@@ -26,6 +26,16 @@ body{
     padding: 0;
 }
 
+.carath3 {
+    align-items: center;
+}
+
+.container--hero h3{
+    text-align: left;
+    color: var(--blue);
+}
+
+
 .nav{
     height: 80px;
 
@@ -40,6 +50,13 @@ body{
     cursor: pointer;
     z-index: 100;
     border-radius: 5px;
+}
+
+/* LOGO */
+
+.nav__logo{
+    width: 40px;
+    height: 40px;
 }
 
 .nav__list{
